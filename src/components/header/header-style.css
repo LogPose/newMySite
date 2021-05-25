@@ -1,0 +1,43 @@
+.header{
+    width: 960px;
+    height: 250px;
+    margin: 20px auto;
+    border: 2px black solid;
+    border-radius: 10px 20%/20% 50px;
+    font-family: 'headerFont';
+}
+
+.photo{
+    width: 230px;
+    height: 230px;
+    margin: 5px 20px;
+    background: url(./photo.jpg);
+    background-size: 100%;
+    border-radius: 100%;
+}
+
+.profileDescription{
+    width: 670px;
+    height: 230px;  
+    margin: -230px 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.warning{
+    color: rgb(0, 110, 255)
+}
+
+.warningRed{
+    color: rgb(255, 105, 79)
+}
+
+.profileDescription h1{
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'headerFont';
+    src: url(./headerFont.ttf);
+}
